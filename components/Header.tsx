@@ -16,7 +16,7 @@ interface HeaderProps {
   children: React.ReactNode;
   className?: string;
 }
-// 2 24 20
+
 const Header: React.FC<HeaderProps> = ({ children, className }) => {
   const authModal = useAuthModal();
   const router = useRouter();
